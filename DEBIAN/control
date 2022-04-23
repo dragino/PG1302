@@ -1,0 +1,8 @@
+Package: draginofwd       
+Version: 2022-04-20
+Section: utils           
+Prioritt: optional     
+Depends: libsqlite3-dev
+Architecture: all   
+Maintainer: dragino@dragino.com    
+Description: Dragino lora pakeage forward

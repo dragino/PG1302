@@ -1,0 +1,13 @@
+[Unit]
+Description=dragino packet forwarder
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Restart=always
+RestartSec=30
+WorkingDirectory=/etc/lora
+ExecStart=/usr/bin/fwd
+
+[Install]
+WantedBy=multi-user.target
